@@ -24,6 +24,7 @@ namespace GitHubConsoleApp
             Console.WriteLine("Hello from the other side.");
             var gad = new MaGad();
             Console.WriteLine(gad.Hola);
+            Console.WriteLine("Das ist the master - das ist gut");
             Console.ReadLine();
         }
     }
