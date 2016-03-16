@@ -22,6 +22,7 @@ namespace GitHubConsoleApp
         private static void Main(string[] args)
         {
             Console.WriteLine("Fingers crossed.");
+            Console.WriteLine("Hello from the other side.");
             Console.ReadLine();
         }
     }
