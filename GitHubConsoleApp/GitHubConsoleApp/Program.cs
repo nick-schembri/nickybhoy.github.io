@@ -3,13 +3,12 @@
 //   Copyright Win Technologies
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
-
 namespace GitHubConsoleApp
 {
     using System;
 
     /// <summary>
-    /// The program.
+    ///     The program.
     /// </summary>
     internal class Program
     {
@@ -23,6 +22,8 @@ namespace GitHubConsoleApp
         {
             Console.WriteLine("Fingers crossed.");
             Console.WriteLine("Hello from the other side.");
+            var gad = new MaGad();
+            Console.WriteLine(gad.Hola);
             Console.ReadLine();
         }
     }
