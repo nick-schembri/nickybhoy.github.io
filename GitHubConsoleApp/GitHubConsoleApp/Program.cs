@@ -28,6 +28,10 @@ namespace GitHubConsoleApp
             Console.WriteLine("Footie Match!!!!!");
             Console.WriteLine("I am working in the master branch right now...");
             Console.ReadLine();
+
+            var bballMatch = new BasketballMatch();
+            Console.WriteLine($"Home Score = {bballMatch.HomeScore} - Away Score = {bballMatch.AwayScore}");
+            Console.ReadLine();
         }
     }
 }
